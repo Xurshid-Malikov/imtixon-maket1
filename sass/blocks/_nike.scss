@@ -1,0 +1,52 @@
+.nike{
+  margin-bottom: 90px;
+}
+.nike__call{
+  display: flex;
+  align-items: center;
+}
+.nike__inner{
+  width: 100%;
+  max-width: 490px;
+  margin-right: auto;
+}
+.nike__title{
+  font-family:"Roboto";
+  font-weight: 700;
+  font-size:50px ;
+  line-height:60px ;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.nike__text{
+  font-family:"Roboto" ;
+  font-weight: 400;
+  font-size:16px ;
+  line-height:24px;
+  color: #777777;
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.nike__link{
+  color:#FFFFFF;
+  display: block;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size:18px ;
+  line-height:27px ;
+  text-decoration: none;
+  width: 260px;
+  height: 51px;
+  background-color: #EA625C;
+  padding: 12px 38px;
+  text-align: center;
+  
+}
+.nike__watch{
+  width: 100%;
+  max-width: 381px;
+  max-height: 572px;
+  border-radius: 20px;
+}

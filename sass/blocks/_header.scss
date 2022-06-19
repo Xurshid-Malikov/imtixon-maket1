@@ -1,0 +1,43 @@
+.dam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site_logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav_list{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav_item + .nav_item{
+  padding-left: 30px;
+}
+.nav_link{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.tell_number{
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #666666;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.tell_number :hover{
+  cursor: pointer;
+}
